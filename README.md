@@ -11,8 +11,8 @@ List of parameters:
 - --fraction: default=0.1; validation fraction; not used in fraction-free variant
 - --reps: default=10; number of repetitions per rank; not used in fraction-free variant
 - --maxiter: default=2000; max number of iterations
-- --bottom: default=1; bottom rank boundary
-- --top: default=10; upper rank boundary
+- --bottom_k: default=1; lower boundary
+- --top_k: default=10; upper boundary
 - --stride: default=1; for example, if --bottom 1 --top 5 --stride 2, then range is 1-3-5
 - --workers: default=20; number of workers
 - --obj: kl / euc / is; default=kl, KL-divergence, euclidean, Itakura-Saito
