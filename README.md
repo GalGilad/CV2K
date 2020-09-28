@@ -11,7 +11,7 @@ List of parameters:
 - --fraction: default=0.1; validation fraction; not used in fraction-free variant
 - --reps: default=10; number of repetitions per rank; not used in fraction-free variant
 - --maxiter: default=2000; max number of iterations
-- --bottom_k: default=1; from bottom_k
+- --bottom_k: default=1; run from bottom_k
 - --top_k: default=10; to top_k
 - --stride: default=1; for example, if --bottom_k 1 --top_k 5 --stride 2, then range is 1-3-5
 - --workers: default=20; number of workers
