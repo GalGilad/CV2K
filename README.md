@@ -2,8 +2,8 @@
 An automated approach for determining the number of components in non-negative matrix factorization
 
 How to run (examples):
-- python CV2K_main.py --data file_name.npy --from 1 --to 10 --fraction 0.1
-- For fraction-free variant: CV2K_main.py --version x --data file_name.npy --from 1 --to 10
+- python CV2K_main.py --data file_name.npy --bottom 1 --top 10 --fraction 0.1
+- For fraction-free variant: CV2K_main.py --version x --data file_name.npy --bottom 1 --top 10
 
 List of parameters:
 - --version: standard / x; default=standard; standard variant vs fraction-free variant
