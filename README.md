@@ -10,7 +10,7 @@ List of parameters:
 - --auto: y / n; default=n; automatic K search scheme vs using [bottom_k, top_k] range
 - --data: file_name.npy; n x m catalog: n rows are samples, m columns are mutation types
 - --fraction: default=0.1; validation fraction; not used in fraction-free variant
-- --reps: default=30; number of repetitions per rank. Rollback scheme less reliable when number of reps is small
+- --reps: default=30; number of repetitions per rank. rollback scheme is less reliable when number of reps is small
 - --maxiter: default=2000; max number of iterations
 - --bottom_k: default=1; run from bottom_k
 - --top_k: default=10; to top_k
