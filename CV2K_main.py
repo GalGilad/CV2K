@@ -37,8 +37,8 @@ def NMF(V, k):
     :param k: rank of factorization
     :return: W (n x k) and H (k x m) matrices
     """
-    W, H = init_factor_matrices(V, k, O=np.ones((V.shape), dtype=bool), eps=1e-6, obj='kl', reg=0)
-    W, H, _ = optimize(V, W, H, O=np.ones((V.shape), dtype=bool), maxiter=args.maxiter, eps=1e-6, obj='kl', reg=0)
+    W, H = init_factor_matrices(V, k, O=np.ones((V.shape), dtype=bool), eps=1e-6, obj='euc', reg=0)
+    W, H, _ = optimize(V, W, H, O=np.ones((V.shape), dtype=bool), maxiter=args.maxiter, eps=1e-6, obj='euc', reg=0)
 
     return W, H
 
